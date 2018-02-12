@@ -59,6 +59,13 @@ body * {
 	font-weight: bold;
 	width: 40%;
 	margin: 64px 0 32px;
+	border: 2px solid #fff;
+	transition: none;
+}
+
+.login form > input[type="button"]:focus {
+	border: 2px solid cyan;
+	background-color: cyan;
 }
 
 .login form > input:focus {
